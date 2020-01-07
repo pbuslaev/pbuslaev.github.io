@@ -20,7 +20,7 @@ description: Results for the PCA study of DPPC phase transitions
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme.md"
+  About Me: "aboutme"
   Resources:
     - PCAlipids: "https://doi.org/10.1021/acs.jctc.5b01106"
     - PCAlipids soft: "https://github.com/membrane-systems/PCAlipids"
