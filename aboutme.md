@@ -1,16 +1,9 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Dr. Pavel Buslaev
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Now I am a postdoc at the University of Jyvaskula. I'm interested in simulation of membranes and membrane proteins. Now I am working on the computational model of ATP synthase.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+The list of my publications: [https://scholar.google.com/citations?user=dSAxee0AAAAJ&hl=en&oi=ao]
