@@ -8,13 +8,13 @@ At temperatures 325, 320, 318 and 315 K transition rates for dihedrals O11-C1-C2
 
 ![](/img/diheds/dihed_26.png) ![](/img/transitions/transition_1.png)
 
-State 0 - angles between -180 and -120 and between 0 and 180
+State 0 - angles between -180 and -120 and between 0 and 180 <br/>
 State 1 - angles between -120 and 0 
 
 ![](/img/diheds/dihed_19.png) ![](/img/transitions/transition_2.png)
 
-State 0 - angles between -180 and -120 and between 120 and 180
-State 1 - angles between -120 and 0 
+State 0 - angles between -180 and -120 and between 120 and 180 <br/>
+State 1 - angles between -120 and 0 <br/>
 State 2 - angles between 0 and 120
 
 The motions that correspond to PC80 and PC93 could be found [here](https://github.com/pbuslaev/pbuslaev.github.io/tree/master/data/)
