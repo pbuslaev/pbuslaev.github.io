@@ -9,4 +9,4 @@ At temperatures 325, 320, 318 and 315 K transition rates for dihedrals O11-C1-C2
 ![](/img/transitions/transition_1.png)
 ![](/img/transitions/transition_2.png)
 
-The motions that correspond to PC80 and PC93 could be found [here](https://github.com/pbuslaev/pbuslaev.github.io/data/)
+The motions that correspond to PC80 and PC93 could be found [here](https://github.com/pbuslaev/pbuslaev.github.io/tree/master/data/)
