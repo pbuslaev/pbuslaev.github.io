@@ -27,12 +27,12 @@ header {
 
 .navbar-header .navbar-title {
     margin: 0; /* Add space between the header text and the icon */
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #fff;
-    text-decoration: none;
 }
 
 .navbar-header .navbar-title a {
+    text-decoration: none;
     color: #fff;
 }
 
