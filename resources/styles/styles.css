@@ -7,7 +7,7 @@
 
 /* Styling the header */
 header {
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 1000;
     display: flex; /* Use Flexbox to align items */
@@ -21,7 +21,6 @@ header {
 /* Styling navbar-header */
 .navbar-header {
     display: flex; /* Align icon and header in a row */
-    gap: 20px;
     align-items: center; /* Center icon and text vertically */
 }
 
