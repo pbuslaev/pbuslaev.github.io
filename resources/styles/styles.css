@@ -36,7 +36,7 @@ header {
     color: #f4a261; /* Change color on hover */
 }
 
-.navbar-header .navbar-icon {
+.navbar-header .navbar-icon img {
     height: 40px; /* Adjust icon size */
     width: 40px;
     border-radius: 50%; /* Make the icon circular */
