@@ -21,7 +21,8 @@ header {
 /* Styling navbar-header */
 .navbar-header {
     display: grid; /* Align icon and header in a row */
-    grid-column: 1fr 2fr;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
     align-items: center; /* Center icon and text vertically */
 }
 
