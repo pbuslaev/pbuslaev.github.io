@@ -20,7 +20,8 @@ header {
 
 /* Styling navbar-header */
 .navbar-header {
-    display: flex; /* Align icon and header in a row */
+    display: grid; /* Align icon and header in a row */
+    grid-column: 1 2;
     align-items: center; /* Center icon and text vertically */
 }
 
@@ -28,6 +29,10 @@ header {
     margin-right: 0px; /* Add space between the header text and the icon */
     font-size: 1.5rem;
     color: #fff;
+    text-decoration: none;
+}
+
+.navbar-header a {
     text-decoration: none;
 }
 
