@@ -13,24 +13,27 @@ header {
     display: flex; /* Use Flexbox to align items */
     justify-content: space-between; /* Push navbar-header and nav-menu to opposite ends */
     align-items: center; /* Center items vertically */
-    padding: 10px 20px; /* Add some padding for spacing */
+    padding: 2% 2%; /* Add some padding for spacing */
     background-color: #333; /* Navbar background color */
     color: #fff; /* Navbar text color */
 }
 
 /* Styling navbar-header */
 .navbar-header {
-    display: grid; /* Align icon and header in a row */
-    grid-template-columns: 1fr 2fr;
-    gap: 10px;
+    display: flex;
+    gap: 2%;
     align-items: center; /* Center icon and text vertically */
 }
 
 .navbar-header h1 {
-    margin-right: 0px; /* Add space between the header text and the icon */
+    margin: 0; /* Add space between the header text and the icon */
     font-size: 1.5rem;
     color: #fff;
     text-decoration: none;
+}
+
+.navbar-header a:hover {
+    color: #f4a261; /* Change color on hover */
 }
 
 .navbar-header a {
