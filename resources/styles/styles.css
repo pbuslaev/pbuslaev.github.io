@@ -32,6 +32,10 @@ header {
     text-decoration: none;
 }
 
+.navbar-header .navbar-title a {
+    color: #fff;
+}
+
 .navbar-header .navbar-title a:hover {
     color: #f4a261; /* Change color on hover */
 }
