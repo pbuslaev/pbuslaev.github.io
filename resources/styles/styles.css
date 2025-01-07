@@ -25,22 +25,18 @@ header {
     align-items: center; /* Center icon and text vertically */
 }
 
-.navbar-header h1 {
+.navbar-header .navbar-title {
     margin: 0; /* Add space between the header text and the icon */
     font-size: 1.5rem;
     color: #fff;
     text-decoration: none;
 }
 
-.navbar-header a:hover {
+.navbar-header .navbar-title a:hover {
     color: #f4a261; /* Change color on hover */
 }
 
-.navbar-header a {
-    text-decoration: none;
-}
-
-.navbar-header img {
+.navbar-header .navbar-icon {
     height: 40px; /* Adjust icon size */
     width: 40px;
     border-radius: 50%; /* Make the icon circular */
