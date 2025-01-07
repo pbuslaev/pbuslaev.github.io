@@ -1,0 +1,51 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the header */
+header {
+    display: flex; /* Use Flexbox to align items */
+    justify-content: space-between; /* Push navbar-header and nav-menu to opposite ends */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px; /* Add some padding for spacing */
+    background-color: #333; /* Navbar background color */
+    color: #fff; /* Navbar text color */
+}
+
+/* Styling navbar-header */
+.navbar-header {
+    display: flex; /* Align icon and header in a row */
+    align-items: center; /* Center icon and text vertically */
+}
+
+.navbar-header h1 {
+    margin-right: 10px; /* Add space between the header text and the icon */
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.navbar-header img {
+    height: 40px; /* Adjust icon size */
+    width: 40px;
+    border-radius: 50%; /* Make the icon circular */
+}
+
+/* Styling nav menu */
+nav {
+    display: flex; /* Align menu items in a row */
+    gap: 20px; /* Space between each link */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* Link color */
+    font-size: 1rem;
+    transition: color 0.3s ease; /* Smooth hover transition */
+}
+
+nav a:hover {
+    color: #f4a261; /* Change color on hover */
+}
