@@ -18,6 +18,7 @@ header {
 /* Styling navbar-header */
 .navbar-header {
     display: flex; /* Align icon and header in a row */
+    gap: 20px;
     align-items: center; /* Center icon and text vertically */
 }
 
@@ -48,4 +49,13 @@ nav a {
 
 nav a:hover {
     color: #f4a261; /* Change color on hover */
+}
+
+footer {
+    display: flex; /* Use Flexbox to align items */
+    justify-content: space-between; /* Push navbar-header and nav-menu to opposite ends */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px; /* Add some padding for spacing */
+    background-color: #333; /* Navbar background color */
+    color: #fff; /* Navbar text color */
 }
