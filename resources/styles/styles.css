@@ -7,6 +7,9 @@
 
 /* Styling the header */
 header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
     display: flex; /* Use Flexbox to align items */
     justify-content: space-between; /* Push navbar-header and nav-menu to opposite ends */
     align-items: center; /* Center items vertically */
@@ -23,9 +26,10 @@ header {
 }
 
 .navbar-header h1 {
-    margin-right: 10px; /* Add space between the header text and the icon */
+    margin-right: 0px; /* Add space between the header text and the icon */
     font-size: 1.5rem;
     color: #fff;
+    text-decoration: none;
 }
 
 .navbar-header img {
@@ -49,6 +53,11 @@ nav a {
 
 nav a:hover {
     color: #f4a261; /* Change color on hover */
+}
+
+main {
+    padding: 20px; /* Horizontal and vertical padding for content */
+    margin-top: 10px; /* Optional: Add space between header and content */
 }
 
 footer {
