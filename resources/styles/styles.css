@@ -81,7 +81,7 @@ main {
 .animation-box {
     position: relative; /* Make this the positioning context for child images */
     width: 70%; /* Box width is 70% of the screen */
-    aspect-ratio: 2 / 1; /* Height is half the width */
+    aspect-ratio: 3 / 1; /* Height is half the width */
     background-color: #fff; /* Optional: Add a light background for the box */
     overflow: hidden; /* Ensure images don't overflow outside the box */
 }
@@ -105,14 +105,15 @@ main {
     right: 0; /* Position at the right */
     width: 20px;
     height: 20px;
+    transform: scaleX(-1);
 }
 
 /* Sun image (top-left corner) */
 #sun {
     top: 0; /* Position at the top */
     left: 0; /* Position at the left */
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
 }
 
 /* About Me Section */
