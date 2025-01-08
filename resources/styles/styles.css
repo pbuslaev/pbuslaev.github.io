@@ -129,19 +129,18 @@ main {
     display: contents; /* Allow li content to align properly in grid cells */
 }
 
-.projects li a:first-child {
+.projects li:nth-child(odd) {
     font-weight: bold;
     color: #333; /* Dark color for project title */
     text-decoration: none; /* Remove underline from project title link */
     font-size: 1.2rem; /* Slightly larger font for project titles */
 }
 
-.projects li a:first-child:hover {
+.projects li:nth-child(odd) a:hover {
     color: #f4a261; /* Highlight color on hover */
 }
 
-.projects li p, 
-.projects li a:last-child {
+.projects li:nth-child(even) {
     font-size: 1rem; /* Text font size for project details */
     line-height: 1.6; /* Improve readability */
     color: #555; /* Slightly lighter color for details */
