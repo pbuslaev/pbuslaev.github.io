@@ -103,6 +103,50 @@ main {
     text-align: left; /* Align text to the left */
 }
 
+/* Projects Section */
+.projects {
+    text-align: center; /* Center-align the title */
+    padding: 40px 20px; /* Add spacing around the section */
+}
+
+.projects h2 {
+    font-size: 2rem; /* Same font size as the "About Me" title */
+    margin-bottom: 20px; /* Add spacing below the title */
+}
+
+.projects ul {
+    display: grid; /* Use a grid layout for the list */
+    grid-template-columns: 1fr 3fr; /* Two columns: title (1/4) and details (3/4) */
+    gap: 20px 10px; /* Add spacing between grid items (rows and columns) */
+    justify-content: center; /* Center the grid content */
+    max-width: 800px; /* Limit the width of the content */
+    margin: 0 auto; /* Center the grid in the section */
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.projects li {
+    display: contents; /* Allow li content to align properly in grid cells */
+}
+
+.projects li a:first-child {
+    font-weight: bold;
+    color: #333; /* Dark color for project title */
+    text-decoration: none; /* Remove underline from project title link */
+    font-size: 1.2rem; /* Slightly larger font for project titles */
+}
+
+.projects li a:first-child:hover {
+    color: #f4a261; /* Highlight color on hover */
+}
+
+.projects li p, 
+.projects li a:last-child {
+    font-size: 1rem; /* Text font size for project details */
+    line-height: 1.6; /* Improve readability */
+    color: #555; /* Slightly lighter color for details */
+}
+
 footer {
     display: flex; /* Use Flexbox to align items */
     justify-content: space-between; /* Push navbar-header and nav-menu to opposite ends */
