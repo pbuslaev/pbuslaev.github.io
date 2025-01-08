@@ -14,12 +14,13 @@ document.addEventListener("DOMContentLoaded", () => {
         const planeX = 100 - elapsedPlaneTime * 100;
         const planeY = 40 + 20 * elapsedPlaneTime;
    
-        sun.style.transform = `translate(${sunX}%, ${sunY}%)`;
+        sun.style.left = `${sunX}%`;
+        sun.style.top = `${sunY}%`;
    
-        plane.style.transform = `translate(${planeX}%, ${planeY}%)`;
-        plane.style.opacity = planeOpacity;
+        plane.style.left = `${planeX}%`;
+        plane.style.top = `${planeY}%`;
    
-      requestAnimationFrame(updateAnimation);
+        requestAnimationFrame(updateAnimation);
     }
    
     updateAnimation();
