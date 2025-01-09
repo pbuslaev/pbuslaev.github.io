@@ -16,12 +16,13 @@ document.addEventListener("DOMContentLoaded", () => {
         const dayTime = Math.floor(time / 20000) % 2;
         const elapsedPlaneTime = (time % 5000) / 5000;
 
-        if (elapsedTime < 0.01) { console.log(`${time}, ${dayTime}, ${Math.floor(time / 20000)}`)}
         const color1 = [255, 255, 255];
         const color2 = [200, 200, 200];
         
         if (dayTime === 0) {
             sun.src = "./resources/images/sun.png";
+            sun.style.width = "60px";
+            sun.style.height = "60px";
             coding.src = "./resources/images/coding.webp";
             coding.style.right = '0';
             coding.style.left = '';
@@ -39,14 +40,16 @@ document.addEventListener("DOMContentLoaded", () => {
             plane.style.top = `${planeY}%`;
 
             if (elapsedTime < 0.1) {
-                box.style.backgroundColor = lerpColor(color1, color2, 0.5*(0.1 - elapsedTime));
+                box.style.backgroundColor = lerpColor(color1, color2, 5*(0.1 - elapsedTime));
             }
             else if (elapsedTime > 0.9) {
-                box.style.backgroundColor = lerpColor(color1, color2, 0.5*(elapsedTime - 0.9));
+                box.style.backgroundColor = lerpColor(color1, color2, 5*(elapsedTime - 0.9));
             }
         }
         else {
             sun.src = "./resources/images/moon.png";
+            sun.style.width = "40px";
+            sun.style.height = "40px";
             coding.src = "./resources/images/sleep.png";
             coding.style.right = '';
             coding.style.left = '0';
@@ -58,10 +61,10 @@ document.addEventListener("DOMContentLoaded", () => {
             sun.style.top = `${sunY}%`;
 
             if (elapsedTime < 0.1) {
-                box.style.backgroundColor = lerpColor(color1, color2, 1 - 0.5*(0.1 - elapsedTime));
+                box.style.backgroundColor = lerpColor(color1, color2, 1 - 5*(0.1 - elapsedTime));
             }
             else if (elapsedTime > 0.9) {
-                box.style.backgroundColor = lerpColor(color1, color2, 1 - 0.5*(elapsedTime - 0.9));
+                box.style.backgroundColor = lerpColor(color1, color2, 1 - 5*(elapsedTime - 0.9));
             }
         }
    
