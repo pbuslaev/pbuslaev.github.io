@@ -1,0 +1,47 @@
+.contacts {
+    display: flex;                      /* Flexbox for centering the section */
+    flex-direction: column;              /* Stack elements vertically */
+    justify-content: center;             /* Vertically center */
+    align-items: center;                 /* Horizontally center */
+    height: 100vh;                       /* Full viewport height */
+    text-align: center;                  /* Center the heading text */
+  }
+  
+  h2 {
+    margin-bottom: 20px;                 /* Add some space below the heading */
+    font-size: 2rem;                     /* Adjust the font size */
+    font-weight: bold;                   /* Make the heading bold */
+  }
+  
+  /* Styling for the contact-grid */
+  .contact-grid {
+    display: grid;                       /* Create a grid */
+    grid-template-columns: 1fr 2fr;      /* 2 columns, the second column takes twice the width */
+    gap: 20px;                           /* Add space between grid items */
+    width: 40%;                          /* Limit the width of the grid */
+    max-width: 800px;                    /* Prevent it from growing too large */
+  }
+  
+  .contact-type {
+    display: flex;                       /* Use flexbox for aligning items horizontally */
+    align-items: center;                 /* Align items vertically centered */
+    justify-content: flex-start;         /* Align to the left */
+  }
+  
+  .contact-type img {
+    width: 30px;                         /* Set a fixed size for the icons */
+    height: 30px;
+    margin-right: 10px;                  /* Add space between the icon and the text */
+  }
+  
+  .contact-detail a {
+    text-decoration: none;               /* Remove underline from links */
+    color: inherit;                      /* Inherit the text color */
+    font-weight: bold;                   /* Make the link text bold */
+  }
+  
+  .contact-detail {
+    display: flex;                       /* Flexbox for contact details */
+    align-items: center;                 /* Vertically center content */
+    justify-content: flex-start;         /* Align to the left */
+  }
