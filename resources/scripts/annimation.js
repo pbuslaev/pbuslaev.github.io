@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const color1 = [255, 255, 255];
         const color2 = [200, 200, 200];
         
-        if (dayTime == 0) {
+        if (dayTime === 0) {
             sun.src = "./resources/images/sun.png";
             coding.src = "./resources/images/coding.webp";
             coding.style.right = '0';
