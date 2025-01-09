@@ -198,7 +198,7 @@ main {
 }
 
 footer {
-    position: absolute;
+    position: sticky;
     bottom: 0;
     display: flex; /* Use Flexbox to align items */
     justify-content: space-between; /* Push navbar-header and nav-menu to opposite ends */
