@@ -1,3 +1,8 @@
+  .contacts{
+    text-align: center;
+    padding: 40px 20px;
+  }
+
   h2 {
     margin-bottom: 20px;                 /* Add some space below the heading */
     font-size: 2rem;                     /* Adjust the font size */
