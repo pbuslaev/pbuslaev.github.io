@@ -1,12 +1,3 @@
-.contacts {
-    display: flex;                      /* Flexbox for centering the section */
-    flex-direction: column;              /* Stack elements vertically */
-    justify-content: center;             /* Vertically center */
-    align-items: center;                 /* Horizontally center */
-    height: 100vh;                       /* Full viewport height */
-    text-align: center;                  /* Center the heading text */
-  }
-  
   h2 {
     margin-bottom: 20px;                 /* Add some space below the heading */
     font-size: 2rem;                     /* Adjust the font size */
@@ -16,7 +7,7 @@
   /* Styling for the contact-grid */
   .contact-grid {
     display: grid;                       /* Create a grid */
-    grid-template-columns: 1fr 2fr;      /* 2 columns, the second column takes twice the width */
+    grid-template-columns: 1fr 1fr;      /* 2 columns, the second column takes twice the width */
     gap: 20px;                           /* Add space between grid items */
     width: 40%;                          /* Limit the width of the grid */
     max-width: 800px;                    /* Prevent it from growing too large */
@@ -35,8 +26,14 @@
   }
   
   .contact-detail a {
-    text-decoration: none;               /* Remove underline from links */
+    text-decoration: underline;               /* Remove underline from links */
     color: inherit;                      /* Inherit the text color */
+    font-weight: bold;                   /* Make the link text bold */
+  }
+
+  .contact-detail a:hover {
+    text-decoration: underline;               /* Remove underline from links */
+    color: #f4a261;                      /* Inherit the text color */
     font-weight: bold;                   /* Make the link text bold */
   }
   
