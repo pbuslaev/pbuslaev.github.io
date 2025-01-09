@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    min-height: 100vh;
 }
 
 /* Styling the header */
@@ -199,6 +198,8 @@ main {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
     display: flex; /* Use Flexbox to align items */
     justify-content: space-between; /* Push navbar-header and nav-menu to opposite ends */
     align-items: center; /* Center items vertically */
