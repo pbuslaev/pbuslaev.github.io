@@ -15,7 +15,8 @@
     grid-template-columns: 1fr 1fr;      /* 2 columns, the second column takes twice the width */
     gap: 20px;                           /* Add space between grid items */
     width: 40%;                          /* Limit the width of the grid */
-    max-width: 800px;                    /* Prevent it from growing too large */
+    max-width: 800px;    
+    margin: 0 auto;
   }
   
   .contact-type {
