@@ -23,7 +23,8 @@ document.addEventListener("DOMContentLoaded", () => {
         if (dayTime == 0) {
             sun.src = "./resources/images/sun.png";
             coding.src = "./resources/images/coding.webp";
-            coding.style.right = 0;
+            coding.style.right = '0';
+            coding.style.left = '';
             plane.style.display = "block";
             const sunX = elapsedTime * 100 * (1 - sun.offsetWidth / box.offsetWidth); // Moves from 0% to 100% horizontally
             const sunY = Math.pow(elapsedTime - 0.5, 2) * 150; // Parabolic motion, peaks at 0.5 (center)
@@ -37,17 +38,18 @@ document.addEventListener("DOMContentLoaded", () => {
             plane.style.left = `${planeX}%`;
             plane.style.top = `${planeY}%`;
 
-            if (elapsedPlaneTime < 0.1) {
+            if (elapsedTime < 0.1) {
                 box.style.backgroundColor = lerpColor(color1, color2, 0.5*(0.1 - elapsedTime));
             }
-            else if (elapsedPlaneTime > 0.9) {
+            else if (elapsedTime > 0.9) {
                 box.style.backgroundColor = lerpColor(color1, color2, 0.5*(elapsedTime - 0.9));
             }
         }
         else {
             sun.src = "./resources/images/moon.png";
             coding.src = "./resources/images/sleep.png";
-            coding.style.left = 0;
+            coding.style.right = '';
+            coding.style.left = '0';
             plane.style.display = "none";
             const sunX = elapsedTime * 100 * (1 - sun.offsetWidth / box.offsetWidth); // Moves from 0% to 100% horizontally
             const sunY = Math.pow(elapsedTime - 0.5, 2) * 150; // Parabolic motion, peaks at 0.5 (center)
@@ -55,10 +57,10 @@ document.addEventListener("DOMContentLoaded", () => {
             sun.style.left = `${sunX}%`;
             sun.style.top = `${sunY}%`;
 
-            if (elapsedPlaneTime < 0.1) {
+            if (elapsedTime < 0.1) {
                 box.style.backgroundColor = lerpColor(color1, color2, 1 - 0.5*(0.1 - elapsedTime));
             }
-            else if (elapsedPlaneTime > 0.9) {
+            else if (elapsedTime > 0.9) {
                 box.style.backgroundColor = lerpColor(color1, color2, 1 - 0.5*(elapsedTime - 0.9));
             }
         }
