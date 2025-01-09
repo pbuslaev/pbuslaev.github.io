@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+
 /* Styling the header */
 header {
     position: sticky;
@@ -198,12 +207,14 @@ main {
 }
 
 footer {
-    position: sticky;
+    position: absolute;
+    width: 100%;
+    height: 2.5rem;
     bottom: 0;
     display: flex; /* Use Flexbox to align items */
     justify-content: space-between; /* Push navbar-header and nav-menu to opposite ends */
     align-items: center; /* Center items vertically */
-    padding: 10px 20px; /* Add some padding for spacing */
+    padding: 10px 0px; /* Add some padding for spacing */
     background-color: #333; /* Navbar background color */
     color: #fff; /* Navbar text color */
 }
