@@ -11,8 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
     function updateAnimation() {
-        const now = new Date();
-        const time = now.getSeconds() * 1000 + now.getMilliseconds();
+        const time = Date.now();
         const elapsedTime = (time % 20000) / 20000;
         const dayTime = Math.floor(time / 20000) % 2;
         const elapsedPlaneTime = (time % 5000) / 5000;
