@@ -81,7 +81,7 @@ main {
 .animation-box {
     position: relative; /* Make this the positioning context for child images */
     width: 60%; /* Box width is 70% of the screen */
-    aspect-ratio: 3 / 1; /* Height is half the width */
+    aspect-ratio: 4 / 1; /* Height is half the width */
     background-color: #fff; /* Optional: Add a light background for the box */
     overflow: hidden; /* Ensure images don't overflow outside the box */
 }
