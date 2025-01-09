@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const dayTime = Math.floor(time / 20000) % 2;
         const elapsedPlaneTime = (time % 5000) / 5000;
 
+        if (elapsedTime < 0.01) { console.log(`${time}, ${dayTime}, ${Math.floor(time / 20000)}`)}
         const color1 = [255, 255, 255];
         const color2 = [200, 200, 200];
         
