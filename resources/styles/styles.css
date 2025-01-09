@@ -214,7 +214,7 @@ footer {
     display: flex; /* Use Flexbox to align items */
     justify-content: space-between; /* Push navbar-header and nav-menu to opposite ends */
     align-items: center; /* Center items vertically */
-    padding: 10px 0px; /* Add some padding for spacing */
+    padding: 10px 20px; /* Add some padding for spacing */
     background-color: #333; /* Navbar background color */
     color: #fff; /* Navbar text color */
 }
